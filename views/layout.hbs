@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src='/javascripts/custom.js'></script>
+  </head>
+
+  <body>
+    {{#if isLogged}}
+    <section class="dashboard-container">
+      <section class="actions-bar">
+
+      </section>
+      <section class="dashboard-wrapper">{{{body}}}</section>
+    </section>
+    {{/if}}
+
+    {{#if isLogin}}
+      <div>{{{body}}}</div>
+    {{/if}}
+  </body>
+</html>

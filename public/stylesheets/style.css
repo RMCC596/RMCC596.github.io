@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  /* padding: 50px; */
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.login-container {
+  width: 500px;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.login-container input {
+  width: 100%;
+}
+
+.login-container input + input {
+  margin-top: 15px;
+}
+
+button {
+  margin-top: 15px;
+}
+
+.login-img {
+  width: 50px;
+}
+
+
+.dashboard-container {
+  display: flex;
+  height: 100%;
+}
+
+.actions-bar {
+  background: grey;
+  width: 25%;
+  height: 100%;
+}
+
+.dashboard-wrapper {
+  width: 65%;
+  padding: 50px;
+}
